@@ -1,0 +1,55 @@
+/* Minimal CSS for simple UI */
+body {
+	font-family: Inter, Arial, sans-serif;
+	background: #f5f7fb;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	max-width: 900px;
+	margin: 30px auto;
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+h2,
+h3 {
+	margin: 0 0 12px 0;
+}
+input,
+textarea,
+select,
+button {
+	font-size: 14px;
+	padding: 8px 10px;
+	margin: 8px 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+textarea {
+	resize: vertical;
+}
+.button-row {
+	display: flex;
+	gap: 10px;
+	margin-top: 12px;
+}
+.small-muted {
+	color: #666;
+	font-size: 13px;
+}
+.pre-box {
+	background: #fafafa;
+	padding: 12px;
+	border-radius: 6px;
+	border: 1px solid #eee;
+	white-space: pre-wrap;
+}
+.link-btn {
+	background: transparent;
+	border: none;
+	color: #0066f5;
+	cursor: pointer;
+	padding: 0;
+}
